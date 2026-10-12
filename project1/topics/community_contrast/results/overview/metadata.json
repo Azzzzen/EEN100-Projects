@@ -1,0 +1,36 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "threadpoolctl": "3.7.0"
+  },
+  "config_sha256": "10271c79df08d855f7b90e696e6066da0c69897b8b2524c1129a7ed81e335946",
+  "source_sha256": {
+    "__init__.py": "2e65f3e4dbf8e177f60e47373a9e98f609dcc25de8a7692826e0e47d791641a8",
+    "__main__.py": "b4b3adfd8fac6d090431f6d6fb2f37ded265ec9d593236877f8e9bf80e351d06",
+    "experiment.py": "281e93fd476e5d74361f91a8fbefde642ce92d60e551fb21ae1a0c4cae25f297",
+    "metrics.py": "8e6e06ee54efba4ed355e570075991e3076c1b10d0922b8870248c0df5477f37",
+    "plotting.py": "f81a0f482454965e1751ccdefd51cb01acea6f54720d0f2d42b685e2974fde65",
+    "sbm.py": "7298796671ef64b784638fbb1d18f4ed204fd246539fd2f22c9c7cf1ff3fc930",
+    "spectral.py": "98946cfdf7275626721edfeb4ba215d829bf8c9d89a98eda761300631af0a8d6"
+  },
+  "example_repeat": null,
+  "sd_definition": "sample standard deviation across graphs (ddof=1); empty for one repeat",
+  "note": "Finite simulation results, not a proof of asymptotic recovery. BLAS threads limited to 1.",
+  "topic_script_sha256": "712d67820f657bb14e589e77bcd9e1faa861df79f85d9c9a2bca72097a292c32",
+  "embedding_script_sha256": "8bf836a26ecf17c29842f4723881d9c7f7301e2ba3d99b4b9c237fe17fe49155",
+  "master_seed": 2026092801,
+  "independent_seeds_across_ratios": true,
+  "walkthrough_match": "r=5 uses baseline seed; repeat 0 matches the PPT",
+  "examples": {
+    "ratios": [
+      5.0
+    ],
+    "repeat": 0
+  },
+  "exact_interval": "pointwise 95% Wilson; not simultaneous across ratios"
+}

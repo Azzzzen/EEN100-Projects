@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.DS_Store
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+results/*
+!results/reference/
+/figures/
+# Keep the supplied course handout locally; do not publish it by default.
+/Project1-2026.pdf
+# Local presentation materials.
+/slides/
