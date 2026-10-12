@@ -1,0 +1,18 @@
+{
+  "conclusion": "Correlation and sparsity change the useful penalty and held-out sign recovery as n grows.",
+  "panels": [
+    "Grid-optimal paper lambda versus n",
+    "Independent sign recovery versus n",
+    "Tuning sign-error surfaces for all three cases"
+  ],
+  "archetype": "quantitative grid",
+  "backend": "Python / matplotlib",
+  "export": "English PNG only, 220 dpi",
+  "uncertainty": "Lambda: 500 tuning bootstrap resamples; recovery: 95% Wilson intervals",
+  "review_risks": [
+    "Known-truth selection diagnostic, not practical CV",
+    "Matched A/B compare correlations; B/C jointly change p and q",
+    "Population eta is not the actual sample margin",
+    "Grid optimum and finite repetitions do not prove a population optimum or asymptotic rate"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "settings_checked": 12,
+  "realizations_checked": 600,
+  "positive_definite_covariances": true,
+  "analytic_ic_scores": true,
+  "independent_soft_threshold_check": true,
+  "csv_npz_consistency": true,
+  "fixed_success_implies_path_success": true,
+  "example_reproduction": true,
+  "zero_threshold_sensitivity_changes": 0,
+  "threshold_values": [
+    1e-07,
+    1e-06,
+    1e-05
+  ],
+  "max_kkt_residual": 6.9591554741066375e-12
+}

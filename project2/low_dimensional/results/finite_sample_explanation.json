@@ -1,0 +1,60 @@
+{
+  "n": 50,
+  "repeat": 1,
+  "r": 0.7,
+  "true_beta": [
+    1.0,
+    1.0,
+    0.0
+  ],
+  "alpha": 0.41707654066721717,
+  "paper_lambda": 41.707654066721716,
+  "population_ic": 1.1666666666666667,
+  "sample_ic": 1.1920614139689012,
+  "selection_rule": "First fixed-penalty success in existing n=50, r=0.7 replicates; illustrative, not representative",
+  "comparison": "Same X, beta and alpha; compare original centered noise with its negative",
+  "noise_component": -0.08447168808097397,
+  "shrinkage_component": 0.4971808508010208,
+  "successful_alpha_interval": [
+    0.03853527439636432,
+    0.4398160272560095
+  ],
+  "variants": [
+    {
+      "noise_sign": 1,
+      "estimated_beta": [
+        0.7336466352186427,
+        0.5866385347452117,
+        0.0
+      ],
+      "candidate_active_beta": [
+        0.7336466352186417,
+        0.5866385347452117
+      ],
+      "candidate_residual_correlation": 0.4127091627200467,
+      "noise_component": -0.08447168808097397,
+      "shrinkage_component": 0.4971808508010208,
+      "fixed_sign_recovery": true,
+      "any_path_recovery": true,
+      "kkt_residual": 1.0547118733938987e-15
+    },
+    {
+      "noise_sign": -1,
+      "estimated_beta": [
+        0.10606826633659888,
+        0.0,
+        0.9469373679283437
+      ],
+      "candidate_active_beta": [
+        0.53270974439885,
+        0.6797178448722796
+      ],
+      "candidate_residual_correlation": 0.5816525388819948,
+      "noise_component": 0.08447168808097397,
+      "shrinkage_component": 0.4971808508010208,
+      "fixed_sign_recovery": false,
+      "any_path_recovery": false,
+      "kkt_residual": 1.5659695762337833e-13
+    }
+  ]
+}

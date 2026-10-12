@@ -1,0 +1,14 @@
+{
+  "conclusion": "Same penalty; IC holds: correct selection; IC fails: false inclusion.",
+  "panels": [
+    "A: r=0.3, IC holds",
+    "B: r=0.7, IC fails"
+  ],
+  "backend": "Python / matplotlib",
+  "export": "Only 02_coefficients.png, 220 dpi",
+  "evidence": "Predetermined n=800, repeat=0 fits from results/example_fits.json",
+  "review_risks": [
+    "One realization illustrates behavior; repeated results are reported as text",
+    "Sign recovery does not require unbiased coefficient estimates"
+  ]
+}

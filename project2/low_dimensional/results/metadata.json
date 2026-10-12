@@ -1,0 +1,41 @@
+{
+  "seed": 20261012,
+  "cases": {
+    "low_easy": {
+      "r": 0.3,
+      "seed_id": 0
+    },
+    "low_fail": {
+      "r": 0.7,
+      "seed_id": 2
+    }
+  },
+  "sample_sizes": [
+    50,
+    100,
+    200,
+    400,
+    600,
+    800
+  ],
+  "repeats": 50,
+  "realizations": 600,
+  "p": 3,
+  "q": 2,
+  "beta": [
+    1,
+    1,
+    0
+  ],
+  "original_noise": "iid N(0,1)",
+  "intercept": "X and response centered; feature columns scaled to mean square 1",
+  "penalty": "paper lambda=1.5*n**.85; sklearn alpha=lambda/(2*n)",
+  "path_check": "LARS complete path knots and segment midpoints; alpha_min=0",
+  "path_metric": "exists a sign-correct model on path; truth-based diagnostic, not practical tuning",
+  "coefficient_zero_tolerance": 1e-06,
+  "max_kkt_residual": 6.9591554741066375e-12,
+  "validation": "coordinate descent compared with LARS interpolation for every realization",
+  "seconds": 0.5148518085479736,
+  "sklearn": "1.9.1",
+  "numpy": "2.5.3"
+}

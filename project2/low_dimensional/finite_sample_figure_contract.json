@@ -1,0 +1,17 @@
+{
+  "conclusion": "Violation of sample IC can coexist with correct finite-sample selection because noise offsets shrinkage bias.",
+  "archetype": "quantitative grid",
+  "backend": "Python / matplotlib",
+  "export": "English PNG only",
+  "panels": [
+    "Paired-noise coefficient fits with the same X",
+    "Inactive KKT decomposition for the candidate with beta3=0",
+    "Fixed-penalty recovery versus full-path existence across all replicates"
+  ],
+  "review_risks": [
+    "Explicitly selected counterexample; use all replicates for frequencies",
+    "Candidate residual is not the residual of the unconstrained failed fit",
+    "Full-path existence is truth-based and not a practical tuning method",
+    "Finite Monte Carlo results do not prove an exact asymptotic limit"
+  ]
+}

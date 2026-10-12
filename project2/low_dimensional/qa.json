@@ -1,0 +1,10 @@
+{
+  "language": "All figure text checked: English only",
+  "export": "One PNG: 02_coefficients.png",
+  "example": "evaluation repeat 0 chosen in advance, n=800",
+  "metrics": "Correct zero set and coefficient signs; zero tolerance 1e-6",
+  "numerical_check": "Underlying fits validated by CD/LARS agreement and KKT certificates",
+  "visual_review": "Retained Figure 2 reviewed: readable axes, labels and legend.",
+  "scope": "Two low-dimensional settings; simulation data and source PDFs retained.",
+  "presentation": "English experiment settings and run commands in ../README.md; no result analysis or presentation text included."
+}

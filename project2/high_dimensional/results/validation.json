@@ -1,0 +1,61 @@
+{
+  "cells_checked": 18,
+  "datasets": 4320,
+  "p_exceeds_n_in_all_cells": true,
+  "analytic_ic_and_covariance_verified": true,
+  "independent_tuning_and_evaluation": true,
+  "saved_counts_and_intervals_verified": true,
+  "sample_ic_direct_gram_verified": true,
+  "selected_grid_boundaries": [],
+  "predetermined_model_certificates": [
+    {
+      "case": "easy",
+      "n": 50,
+      "sign_errors": 4,
+      "active_count": 3,
+      "active_closed_form_verified": true,
+      "inactive_kkt_verified": true
+    },
+    {
+      "case": "easy",
+      "n": 400,
+      "sign_errors": 0,
+      "active_count": 5,
+      "active_closed_form_verified": true,
+      "inactive_kkt_verified": true
+    },
+    {
+      "case": "correlated",
+      "n": 50,
+      "sign_errors": 1,
+      "active_count": 6,
+      "active_closed_form_verified": true,
+      "inactive_kkt_verified": true
+    },
+    {
+      "case": "correlated",
+      "n": 400,
+      "sign_errors": 0,
+      "active_count": 5,
+      "active_closed_form_verified": true,
+      "inactive_kkt_verified": true
+    },
+    {
+      "case": "difficult",
+      "n": 50,
+      "sign_errors": 9,
+      "active_count": 1,
+      "active_closed_form_verified": true,
+      "inactive_kkt_verified": true
+    },
+    {
+      "case": "difficult",
+      "n": 400,
+      "sign_errors": 1,
+      "active_count": 11,
+      "active_closed_form_verified": true,
+      "inactive_kkt_verified": true
+    }
+  ],
+  "maximum_path_kkt_residual": 1.6254295132078767e-10
+}

@@ -1,0 +1,20 @@
+{
+  "language": "English-only text asserted",
+  "export": "Two PNG files only",
+  "uncertainty": "Lambda: 500 tuning bootstrap resamples; recovery: 95% Wilson intervals",
+  "data": "results/summary.csv and per-cell NPZ arrays",
+  "scope": "Three high-dimensional cases; low-dimensional outputs preserved",
+  "visual_review": "Both three-case PNGs inspected: English legends, axes, colorbar and captions readable; footer distinguishes left/right panels from cases A/B/C.",
+  "integrity": "Underlying numerical values unchanged",
+  "numerical_review": "18 cells and 4320 datasets validated; maximum KKT residual 1.63e-10; selected grid optima are interior.",
+  "presentation_review": "English experiment settings and run commands in ../README.md; no result analysis or presentation text included.",
+  "pptx_status": "No PPTX is included; PNG figures and concise documentation are provided.",
+  "content_defects_corrected": [
+    "Removed obsolete two-case assignment warning",
+    "Added matched correlation comparison without attributing B/C difference to a single factor",
+    "Distinguished left/right uncertainty bands from case labels A/B/C",
+    "Qualified observed B/C difference: confidence intervals overlap",
+    "Distinguished population eta from sample-IC pass rates"
+  ],
+  "remaining_limitation": "Placement plan has not been rendered as a PPTX; slide-level overflow cannot be claimed verified."
+}
